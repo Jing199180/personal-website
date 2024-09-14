@@ -693,11 +693,23 @@ body {
     /*9px / 16px = 0.56 = 56%*/
     font-size: 56%;
   }
+
+  .videos__function {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 @media (max-width: 62.5rem) {
   .container__image-box {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .videos__function {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
@@ -725,6 +737,12 @@ body {
 
   .container__image-box {
     grid-template-columns: 1fr;
+  }
+
+  .videos__function {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
@@ -762,5 +780,11 @@ body {
 
   .main-nav-link {
     font-size: 3.6rem;
+  }
+
+  .videos__function {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
