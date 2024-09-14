@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <section
+      class="container container__project-brief grid grid--2-cols container__project-brief-sm"
+    >
+      <h1 class="heading-primary">徒手物理治療線上預約系統</h1>
+      <div class="animation-box">
+        <div class="rotate-square"></div>
+      </div>
+
+      <aside class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link home-link" href="./work.html"
+              >work<span></span
+            ></a>
+          </li>
+        </ul>
+        <div class="container-work-link work-1">
+          <a
+            class="resource-code"
+            href="https://github.com/Jing199180/medical-appointment-booking-application"
+            target="_blank"
+            ><ion-icon class="icon-github" name="logo-github"></ion-icon
+          ></a>
+          <a
+            class="resource-link"
+            href="https://kcmanualtherapy.netlify.app/login"
+            target="_blank"
+            >URL</a
+          >
+        </div>
+      </aside>
+
+      <p class="description">
+        打造一個高效、便利的線上預約平台，專為物理徒手治療服務而設計。此系統讓患者能夠輕鬆地查看治療師的可用時段並進行預約，節省時間並提升預約體驗。系統不僅簡化了預約流程，還為治療師提供了專屬管理介面，方便管理日程、調整時間並查看患者的預約資訊。藉由簡單直觀的操作介面，此平台不僅改善了使用者的體驗，還有助於提升業務效率。
+      </p>
+      <div class="project-skills">
+        <div class="project-role">
+          <p class="project-role__title">Role:</p>
+          <ul class="project-role__list">
+            <li>Front-End Engineer</li>
+            <li>UX Designer</li>
+          </ul>
+        </div>
+        <div class="project-tech">
+          <p class="project-tech__title">Tech Stack:</p>
+          <ul class="project-tech__list">
+            <li>前端：React</li>
+            <li>後端：Node.js</li>
+            <li>數據庫：Supabase</li>
+            <li>狀態管理：React Query, Context API</li>
+          </ul>
+        </div>
+        <div class="project-ux">
+          <p class="project-ux__title">UX:</p>
+          <ul class="project-ux__list">
+            <li>User Research</li>
+            <li>Information Architecture</li>
+            <li>Interation Design</li>
+            <li>Visual Design</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section
+      class="container container__working-process grid grid--2-cols container__project-brief-sm"
+    >
+      <div class="design-process">
+        <h2 class="heading-secondary">設計流程</h2>
+        <p class="process__title">需求與問題</p>
+        <div class="steps needs">
+          <p class="steps__title">需求：</p>
+          <ul class="steps__list">
+            <li>簡化預約流程。</li>
+            <li>方便管理預約資訊。</li>
+            <li>客戶可即時更新可預約時間。</li>
+          </ul>
+        </div>
+        <div class="steps">
+          <p class="steps__title">問題：</p>
+          <ul class="steps__list">
+            <li>患者預約流程繁瑣。</li>
+            <li>客戶需要另外使用其他軟體來更新行事曆。</li>
+          </ul>
+        </div>
+
+        <p class="process__title">用戶研究</p>
+        <div class="steps">
+          <p class="steps__title">客戶：</p>
+          <ul class="steps__list">
+            <li>利用線上繪圖平台來修改每一個月的行事曆。</li>
+            <li>使用line來跟得知是否有患者要預約特定的時間。</li>
+            <li>與病患確定時間沒問題後排定時間。</li>
+          </ul>
+        </div>
+        <div class="steps">
+          <p class="steps__title">患者：</p>
+          <ul class="steps__list">
+            <li>在line上得知可預約時間的資訊</li>
+            <li>聯繫物理治療師某個時間段有沒有空</li>
+            <li>接收回覆後確認有預約成功</li>
+          </ul>
+        </div>
+
+        <p class="process__title">設計決策</p>
+        <div class="steps">
+          <p class="steps__title direction">方向：</p>
+          <ul class="steps__list">
+            <li>
+              患者能快速找到治療師的空閒時間並輕鬆預約，不想花太多時間學習如何使用系統。
+            </li>
+            <li>
+              治療師能夠方便地設置和調整自己的可用時間，並將不可用時間標記出來。
+            </li>
+            <li>簡易後台管理系統。</li>
+          </ul>
+        </div>
+      </div>
+      <div class="develop-process">
+        <h2 class="heading-secondary">開發功能</h2>
+        <p class="process__title">主要功能</p>
+        <div class="steps">
+          <p class="steps__title">客戶：</p>
+          <ul class="steps__list">
+            <li>管理時間表</li>
+            <li>查看預約狀態</li>
+            <li>物理治療師管理</li>
+            <li>帳號管理</li>
+          </ul>
+        </div>
+
+        <div class="steps">
+          <p class="steps__title">患者：</p>
+          <ul class="steps__list">
+            <li>線上預約</li>
+            <li>預約狀態查詢</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section
+      class="container container__comparison-presentation grid grid--2-cols container__project-brief-sm"
+    >
+      <h2 class="heading-secondary function-presentation">主要功能展示</h2>
+      <p class="comparison-presentation__title">客戶如何規劃可預約的時間</p>
+      <div class="comparison-presentation">
+        <h3 class="heading-tertiary">Before</h3>
+        <p class="comparison-presentation__description">
+          透過在Canva平台上來更改每個月的可預約時間，再發佈到他的官方line群中。每個月都要另外花時間來規劃設計行事曆，相當的費時。
+        </p>
+        <img class="img__function" src="./img/function-1.png" />
+      </div>
+
+      <div class="comparison-presentation">
+        <h3 class="heading-tertiary">After</h3>
+        <p class="comparison-presentation__description">
+          直接使用新開發的系統做到即時更新各個月可預約時間的功能。
+        </p>
+        <video class="videos__function" controls autoplay loop>
+          <source src="./video/function-1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <p class="comparison-presentation__title">患者如何預約時間看診</p>
+      <div class="comparison-presentation">
+        <h3 class="heading-tertiary">Before</h3>
+        <p class="comparison-presentation__description">
+          透過官方LINE詢問某天的下午時段有沒有空，再填寫相關資訊，等候通知。
+        </p>
+        <img class="img__function" src="./img/function-2.png" />
+      </div>
+
+      <div class="comparison-presentation">
+        <h3 class="heading-tertiary">After</h3>
+        <p class="comparison-presentation__description">
+          直接使用新開發的系統做到即時預約時間的功能，患者能輕鬆在日曆上看到可預約的時間段。
+        </p>
+        <video class="videos__function" controls autoplay loop>
+          <source src="./video/function-2.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <p class="comparison-presentation__title">客戶如何管理已預約的時程</p>
+      <div class="comparison-presentation">
+        <h3 class="heading-tertiary">Before</h3>
+        <p class="comparison-presentation__description">
+          在官方LINE上查看對話紀錄，查詢與患者確認後的診療時間。
+        </p>
+        <img class="img__function" src="./img/function-3.png" />
+      </div>
+
+      <div class="comparison-presentation">
+        <h3 class="heading-tertiary">After</h3>
+        <p class="comparison-presentation__description">
+          在行事曆上看到有時段標示為Booked狀態後，可發現側面欄位的Bookings裡，已經有人預約時段，另位結束患者的治療後，可標註已完成，方便管理預約的資料。
+        </p>
+        <video class="videos__function" controls autoplay loop>
+          <source src="./video/function-3.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+    <section
+      class="container container__comparison-presentation grid grid--2-cols container__project-brief-sm"
+    >
+      <h2 class="heading-secondary">立即體驗</h2>
+
+      <div class="container-work-link work-1">
+        <p class="description">
+          這個頁面只展示了本應用程式的部分功能，如有興趣可以點擊右邊的鏈結來實際體驗，並且聯繫我索取帳號及密碼做登入
+          &rarr;
+        </p>
+        <a
+          class="resource-code"
+          href="https://github.com/Jing199180/medical-appointment-booking-application"
+          target="_blank"
+          ><ion-icon class="icon-github" name="logo-github"></ion-icon
+        ></a>
+        <a
+          class="resource-link"
+          href="https://kcmanualtherapy.netlify.app/login"
+          target="_blank"
+          >URL</a
+        >
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="copyright">
+        Copyright &copy; 2024 by Jing Gao. All rights reserved.
+      </p>
+
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      ></script>
+    </footer>
+  </body>
+</html>
